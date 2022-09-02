@@ -1,11 +1,15 @@
-fun main(){
+fun main() {
         /*
         Author: Neil
         Date created: September 2, 2022
         Filename: FirstKotlinProgram.kt
          */
-        print("Hello World!")
-        print("My Name is Neil Jasper A. Juntilla")
-        print("I am amazing")
-        print("It is fun to learn Kotlin")
+        println("Enter Your number1:")
+        var number1 : Int = readln().toInt()
+
+        println("Enter Your number2:")
+        var number2 : Int = readln().toInt()
+
+        var sum : Int = number1 + number2
+        print("The sum is $sum")
 }
