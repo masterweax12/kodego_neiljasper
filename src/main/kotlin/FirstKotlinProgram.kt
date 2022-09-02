@@ -6,4 +6,5 @@ fun main(){
          */
         print("Hello World!")
         print("My Name is Neil Jasper A. Juntilla")
+        print("I am amazing")
 }
