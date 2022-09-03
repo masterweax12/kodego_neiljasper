@@ -8,14 +8,10 @@ fun main() {
     var student4: String = "This is student4"
     var studentList: String = student1 + student2 + student3 + student4
     var progress: String = "\"Exercise\""
+
     print("STUDENT DIRECTORY:\n")
 
     println(studentList)
 
     print("Student progress:$progress ")
-
-    //School Library 01-B
-
-    //Inventory System for grocery 01-C
-
 }
