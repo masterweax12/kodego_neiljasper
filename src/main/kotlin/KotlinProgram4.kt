@@ -1,5 +1,7 @@
 fun main() {
-    var grades: Int = 75
+    println("Enter Your grades:")
+    var grades : Int = readln().toInt()
+
     if ((grades >= 96)&&(grades <=100)) {
         print("1.0")
     }else if ((grades >=86)&&(grades <=95)){
