@@ -1,6 +1,8 @@
 package PracticeActivity3
 fun main(){
     print("Enter age: ")
+    var number : Int = readln().toInt()
+
     var ageGroup : Int = 50
     if ((ageGroup >= 1)&&(ageGroup <=17)) {
         print("Under Age")
