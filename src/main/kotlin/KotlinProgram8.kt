@@ -10,7 +10,6 @@ fun main(){
     var ctr : Int = 1
     //condition: "Always looping" Common problem
     while (ctr <=5 ){
-        println("Hello World!$ctr")
         //update terminate or Stop the loop
         ctr++
     }
