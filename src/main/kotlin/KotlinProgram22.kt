@@ -1,17 +1,12 @@
 fun main(){
-    displayMessage("My name is Jack!")
-//    println("Enter Number 1:")
-//    var number : Int = readln().toInt()
-//
-//    println("The cube is ${number * number * number}")
-//
-//    println("Enter Number 2:")
-//    var number2 : Int = readln().toInt()
-//
-//    println("The cube is ${number2 * number2 * number2}")
+    println("Enter your Name: ")
+    var name : String = readln().toString()
 
+    println("Enter your Age: ")
+    var age : Int = readln().toInt()
+
+    displayNameAndAge(name, age)
 }
-
 
 //no return function no parameter
 fun displayName(){
@@ -20,6 +15,12 @@ fun displayName(){
 //no return with 1 parameter
 fun displayMessage(msg: String){
     println("The message is \"$msg\"")
+}
+//no return with 2 parameters
+fun displayNameAndAge(name: String,age: Int) {
+    println("Your name is $name")
+    println("Your age is $age")
+
 }
 
 
