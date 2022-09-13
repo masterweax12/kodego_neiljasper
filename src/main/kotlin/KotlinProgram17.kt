@@ -1,4 +1,4 @@
-fun main() {
+fun main(args : Array<String>) {
     var mySet =
         setOf(3, 6, 1, 2, 2, 2, 2, 2, 2)
     //mutable set
@@ -13,21 +13,21 @@ fun main() {
     }
 
 
-//    println(mySet.count())
-//    println(mySet.sum())
-//    println(mySet.average())
-//
-//    var setA = setOf(2, 5, 7, 8)
-//    var setB = setOf(1, 3, 5, 7)
-//
-//    //union
-//    println(setA.union(setB))
-//    //intersect
-//    println(setA.intersect(setB))
-//    //difference
-//    println(setA.minus(setB))
-//    println(setB.minus(setA))
-//
-//
-//
+    println(mySet.count())
+    println(mySet.sum())
+    println(mySet.average())
+
+    var setA = setOf(2, 5, 7, 8)
+    var setB = setOf(1, 3, 5, 7)
+
+    //union
+    println(setA.union(setB))
+    //intersect
+    println(setA.intersect(setB))
+    //difference
+    println(setA.minus(setB))
+    println(setB.minus(setA))
+
+
+
 }
