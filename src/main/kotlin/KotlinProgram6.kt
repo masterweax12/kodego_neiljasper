@@ -5,5 +5,6 @@ fun main(){
 
     for (letters in 'B'..'X'){
         print(letters)
+
     }
 }
