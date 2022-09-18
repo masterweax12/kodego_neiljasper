@@ -1,10 +1,8 @@
 package excercise_activities
 
-
-
 //Implement Activity 01 -  A using data structure.
 /*
-Author Name: Neil Jasper A. Juntilla
+Author Name: シ Neil Jasper A. Juntilla シ
 Date Created: September 18, 2022
 File Name: ExcerciseActivity02A.kt
 */
@@ -27,5 +25,7 @@ fun main(){
         println()
         row++
     }
+
+    //end of code シ
 
 }
