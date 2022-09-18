@@ -6,11 +6,10 @@ fun main() {
 //        3 -> print("Toiletries")
 //        else -> print("invalid item number")
 //    }
-
-    var gender : String = "M"
-    if (gender == "M") {
+    var input : String = readln().toString()
+    if (input == "M") {
         println("Male")
-    }else if (gender == "F"){
+    }else if (input == "F"){
         println("Female")
     }else{
         println("Invalid choice")
