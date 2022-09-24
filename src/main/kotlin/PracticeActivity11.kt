@@ -1,5 +1,3 @@
-package practice_activities
-
 fun main(){
 
     println("* Discount Checker Machine *")
