@@ -3,24 +3,24 @@ package excercise_activities
 
 
 fun main(){
-    var studentLists = Students()
+    val studentLists = Students()
     println("Welcome to Hokkaido Student Directory\n")
     println("Please select between 1-3 of row numbers to access more student information.\n")
     val rowNumber: Int = readln().toInt()
     if (rowNumber ==1 ){
         println("You have selected row number [1]. ${studentLists.studentRow1}")
         println("\nEnter the Letter of the student you would like to access information.")
-        var accessLetter = readln().uppercase()
+        val accessLetter = readln().uppercase()
         studentLists.showStudentRecord1(accessLetter)
     }else if (rowNumber ==2){
         println("You have selected row number [2]. ${studentLists.studentRow2}")
         println("\nEnter the Letter of the student you would like to access information.")
-        var accessLetter = readln().uppercase()
+        val accessLetter = readln().uppercase()
         studentLists.showStudentRecord2(accessLetter)
     }else if (rowNumber ==3){
         println("You have selected row number [3]. ${studentLists.studentRow3}")
         println("\nEnter the Letter of the student you would like to access information.")
-        var accessLetter = readln().uppercase()
+        val accessLetter = readln().uppercase()
         studentLists.showStudentRecord3(accessLetter)
     }else{
         println("The number you entered is invalid. Please try again.")
