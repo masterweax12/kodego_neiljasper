@@ -1,3 +1,4 @@
+package excercise_activities
 fun main() {
     //1st: Accept Monetary Amount until a "No" is set as input for the question "Do you want to add another amount?"
     //2nd: After the input is done, the user will be asked "Divide the value by how many?" It will only accept an Integer as input.
