@@ -1,3 +1,4 @@
+package excercise_activities
 fun main (){
     println("Grocery Goods and Stock lists\n")
 
