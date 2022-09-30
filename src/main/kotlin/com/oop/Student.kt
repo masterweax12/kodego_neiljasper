@@ -1,6 +1,6 @@
 package com.oop
 
-class Student(var _studentId:Int) : Person() {
+class Student(var _studentId:Int) : Person("waweks", 25) {
     var studentId : Int = _studentId
 
     fun displayStudentId(){
