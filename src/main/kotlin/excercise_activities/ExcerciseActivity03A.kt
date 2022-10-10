@@ -9,11 +9,11 @@ fun main(){
      */
 
 //Activity 01D
+        try{
         println("Good Day! Would you like to add monetary? Please enter your desired amount: ")
         var amount: Double = readln().toDouble()
         var condition: Boolean = true
 
-        try{
         //try catch for Activity 01-D
         while (condition) {
             print("Do you want to add more? Yes/No: ")
