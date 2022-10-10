@@ -12,6 +12,8 @@ File Name: ExcerciseActivity02C.kt
     for (category in cat)
         println(category)
 
+
+
     //categories for food
     println("Categories: ${cat[0]}")
     var foods = arrayOf<String> ("Rice", "Fresh meat", "Bread", "Sugar", "Biscuit", "Snacks")
