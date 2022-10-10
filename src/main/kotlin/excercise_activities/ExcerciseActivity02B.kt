@@ -3,7 +3,7 @@ package excercise_activities
 /*
 Author Name: シ Neil Jasper A. Juntilla シ
 Date Created: September 18, 2022
-File Name: ExcerciseActivity02A.kt
+File Name: ExcerciseActivity02B.kt
  */
 
 fun main(){
