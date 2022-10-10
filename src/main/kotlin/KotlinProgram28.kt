@@ -2,7 +2,6 @@ fun main(){
     var myCar = Car()
     myCar.fuelVolume = -100
     println(myCar.fuelVolume)
-
 }
 
 class Car{
