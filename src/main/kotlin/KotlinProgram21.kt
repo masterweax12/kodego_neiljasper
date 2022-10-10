@@ -12,12 +12,14 @@ class MyGenericClass<T>(value:T){
     }
 }
 
+//Non Generic
 class MyClass(value: String){
     init{
         println(value.length)
     }
 }
 
+//Non Generic
 class MyClassInteger(value: Int){
     init{
         println(value.toString().length)
